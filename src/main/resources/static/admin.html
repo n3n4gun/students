@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Личный кабинет</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body data-page="ADMIN"><main hidden><header><h1>Кабинет администратора</h1><button id="logout">Выйти</button></header><p id="message" role="status" aria-live="polite"></p><section><h2>Добавить студента</h2><form id="create-form"><label>Имя<input name="name" required></label><label>Фамилия<input name="surname" required></label><label>Телефон<input name="phone_number" type="tel" required></label><label>Email<input name="email" type="email" required></label><button>Добавить</button></form></section><section><h2>Студенты</h2><button id="refresh">Обновить список</button><ul id="records"></ul></section></main></body>
+</html>

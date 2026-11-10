@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+header h1 { margin: 0; }
+section + section { margin-top: 24px; }
+label { display: grid; gap: 6px; }
+select { padding: 12px; font: inherit; border: 1px solid #94a3b8; border-radius: 6px; max-width: 100%; }
+#records { list-style: none; padding: 0; display: grid; gap: 12px; }
+#records li { padding: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; overflow-wrap: anywhere; }
+#records button { margin: 4px 8px 4px 0; }
+
 body {
     margin: 0;
     padding: 40px 16px;

@@ -35,6 +35,9 @@ public class SecurityConfiguration {
                         .requestMatchers(
                                 "/",
                                 "/index.html",
+                                "/admin.html",
+                                "/teacher.html",
+                                "/superadmin.html",
                                 "/app.js",
                                 "/style.css",
                                 "/styles.css",
